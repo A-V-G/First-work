@@ -1,0 +1,49 @@
+
+
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width: 1200px){
+}
+	
+
+/*Medium Devices, Desctops*/
+@media only screen and (max-width: 992px) {
+
+
+
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+
+.my-navbar-brand {
+	margin-left: 25px;
+}
+
+
+.btn-portfolio {
+	float:none;
+}
+
+.journal-img {
+	margin-bottom: 20px;
+}	
+
+.journal-description {
+	padding-right: 20px;
+}
+
+}
+
+
+
+
+/*Extra Small Devices,Phones*/
+@media only screen and (max-width: 480px) {
+
+
+
+
+/*Custom, Iphone Retina*/
+
+@media only screen and (max-width: 320px) {
+

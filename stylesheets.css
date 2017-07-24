@@ -1,0 +1,306 @@
+
+
+/*helpers class*/
+
+.p0 {
+	padding:0;
+}
+
+/*overrides*/
+
+body {
+	color: #808080;
+}
+
+
+h2, h3, h4, h5 {
+	font-family: 'Oswald', Arial, sans-serif;
+	color:#4d4d4d;
+	letter-spacing: 2px;
+}
+
+
+h2 {
+	font-size: 31px
+}
+
+h3 {
+	font-size: 28px
+}
+
+h4 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h4:after {
+	content:'--';
+	color:red;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.btn {
+	padding:10px 25px;
+	border-radius: 0 ;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus
+ {
+	outline-offset:0px;
+	border-color:transparent;
+		outline: 1px solid #ef5f60;
+}
+
+/*modules*/
+
+
+.my-navbar {
+	padding:50px 0 30px;
+}
+
+.my-navbar-brand {
+	height: auto;
+	width: 126px;
+}
+
+.my-navbar .header-link {
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+	margin-left: 20px;
+	color:  #4d4d4d;
+	transition: all 0.7s;
+}
+
+.my-navbar .header-link:hover {
+	background:none;
+	color:orange;
+	transition: all 0.5s;
+}
+
+.my-navbar .love-link {
+	margin-top: 7px;	
+	width: 36px;
+	height: 36px;
+	background: #ef5f60;
+}
+
+.my-navbar .love-link:hover,
+ .my-navbar .love-link:active,
+ .my-navbar .love-link:focus{
+	background: #ef5f60;
+}
+
+
+#heart {
+    position: relative;
+    width: 0px;
+    height:0px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: -1px;
+    top: -4px;
+    width: 8px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+#heart:after {
+    left: -8px;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+
+
+.my-button-collapse {
+	margin:0;
+}
+
+.my-button-collapse .icon-bar{
+	background:red;
+	width: 35px;
+	margin-bottom: 7px;
+}
+
+
+.sub-header {
+	background: #f1f4f5;
+	padding:40px 0;
+}
+
+.sub-header-head {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/*portfolio*/
+
+.portfolio-base {
+	margin-top: 15px;
+}
+
+
+.btn-portfolio {
+	float:right;
+}
+
+
+.portfolio-img {
+	max-width: none;
+	width: 100%;
+	margin:15px 0;
+}		
+
+
+.portfolio-base h3 {
+margin-top: 60px;	
+}
+
+.contact-btn {
+	display:block;
+	margin: 0 auto;
+	margin-top: 30px;	
+}
+
+	/*TEAMWORK*/
+
+.teamwork-base {
+	margin-top: 60px;
+}
+
+.teamwork-base p {
+	margin-bottom: 50px;
+}
+
+.teamwork-item span {
+	display:inline-block;
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	margin-bottom: 30px;
+}
+
+.teamwork-item .design {
+	background: url(image/responsive.png) no-repeat, #f1f4f5;
+	background-position: 50% 50%;
+}
+
+
+.teamwork-item .video {
+	background: url(image/tv.png) no-repeat, #f1f4f5;
+	background-position: 50% 50%;
+}
+
+.teamwork-item .print {
+	background: url(image/print.png) no-repeat, #f1f4f5;
+	background-position: 50% 50%;
+}
+
+.teamwork-item .illustration {
+	background: url(image/love.png) no-repeat, #f1f4f5;
+	background-position: 50% 50%;
+}
+
+
+
+		/*JOURNAL*/
+
+.journal-base>p {
+	margin-bottom: 50px;
+}
+
+.journal-item {
+	margin-bottom: 40px;
+}
+
+.journal-description {
+	padding-right: 30px;
+}
+
+.journal-description .date {
+	font-family: 'Arial Narrow', Arial, sans-serif
+	letter-spacing: 2px;
+}
+
+.journal-description .text {
+	font-size: 15px;
+}
+
+
+
+
+			/*FOOTER*/
+
+.footer-base {
+	background-color: #2d2d30;
+	padding: 60px 0;
+}
+
+.footer-base .copyright {
+	font-family: Arial, sans-serif;
+	color: #bdbdbd;
+	font-size: 15px;
+	line-height: 22px;
+	padding: 0 15px;
+}
+
+.footer-base .social {
+	display: inline-block;
+	padding: 0;
+}
+
+.footer-base .social-item {
+	display: inline-block;
+}
+
+.footer-base .social-in {
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url(image/sprote.png) no-repeat;
+	box-sizing: content-box;
+	background-clip: content-box;
+}
+
+.social-item .rss {
+	background-position: 8px 8px;
+
+}
+
+.social-item .facebook{
+	background-position: -25px 8px;
+}
+
+.social-item .tumbl{
+	background-position: -58px 8px;
+}
+
+.social-item .dribble{
+	background-position: 8px -26px;
+}
+
+.social-item .pinterest{
+	background-position: -25px -26px;
+}
+
+
+
